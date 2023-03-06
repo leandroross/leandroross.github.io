@@ -46,7 +46,7 @@
 
 @media (max-width: 800px){
     .introducao{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 40px;
     }
 
@@ -64,5 +64,7 @@
 @media(max-width: 400px){
     .introducao img{
         display: none;
+        align-self: center;
     }
 }
+
