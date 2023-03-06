@@ -47,11 +47,11 @@
 @media (max-width: 800px){
     .introducao{
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 20px;
     }
 
     .introducao, h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .introducao h1::before{
